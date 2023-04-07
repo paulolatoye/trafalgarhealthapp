@@ -1,0 +1,65 @@
+.testimonial-row {
+    position: relative;
+    width: 1120px;
+    height: 373px;
+    left: 0;
+    margin-bottom: 250px;
+    top: 40px;
+    background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+.testimonial-header{
+    position: relative;
+    text-align: center;
+    top: 30px;
+}
+
+.testimonial-header h2 {
+    font-weight: 700;
+    font-size: 36px;
+    color: #FFFFFF;
+}
+
+.customer {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 75px;
+}
+
+.testi-client {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 120px;
+}
+
+.client-info{
+    position: relative;
+    top: 40px;
+    left: 20px;
+}
+
+.client-info h4 {
+    font-weight: 700;
+    font-size: 22px;
+    color: #FFFFFF;
+}
+
+.client-info h5 {
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.85);
+}
+
+.testi-para {
+    position: relative;
+    top: 10px;
+    left: 30px;
+    font-weight: 400;
+    font-size: 19px;
+    color: rgba(255, 255, 255, 0.9);
+}

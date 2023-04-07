@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Mulish:wght@300;400;700&family=Roboto&family=Rubik+Moonrocks&display=swap');
+
+*{
+    font-family: "Mulish", sans-serif;
+}
+
+.article-header{
+    text-align: center;
+}
+
+.article-header h2{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 56px;
+    color: #000000;
+}
+
+.article-card{
+    width: 350px;
+    height: 480px;
+    background: #FFFFFF;
+    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+    border-radius: 20px;
+}
+
+.card-title {
+    font-weight: 700;
+
+}
+
+
+.card-footer{
+    display: flex;
+    flex-direction: row;
+    background: none;
+    border: none;
+    margin-left: -19px;
+}
+
+.card-footer img {
+    margin-top: -4px;
+}
+
+.card-footer h3 {
+    font-size: 17px;
+    color: #4089ED;
+    margin-right: 10px;
+
+}
