@@ -1,74 +1,128 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Mulish:wght@300;400;700&family=Roboto&family=Rubik+Moonrocks&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Mulish:wght@300;400;700&family=Roboto&family=Rubik+Moonrocks&display=swap");
 
-*{
-    font-family: "Mulish", sans-serif;
+* {
+  font-family: "Mulish", sans-serif;
 }
 
 .service {
-    margin-top: 40px;
+  margin-top: 40px;
 }
 
 .service-main-section h2 {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 56px;
-    color: #000000;
-    mix-blend-mode: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 56px;
+  color: #000000;
+  mix-blend-mode: normal;
 }
 
 .service-main-section img {
-    width: 56px;
-    background: #000000;
-    border-radius: 5px;
+  width: 56px;
+  background: #000000;
+  border-radius: 5px;
 }
 
 .service-main-section p {
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 30px;
-    color: #7D7987;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+  color: #7d7987;
 }
 
-.service-second-section{
-    width: 300px;
-    height: 250px;
-    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
-    border-radius: 20px;
-    padding: 25px;
+.service-second-section {
+  width: 300px;
+  height: 250px;
+  box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+  border-radius: 20px;
+  padding: 25px;
 }
 
-.service-section-img img{
-    width: 18%;
+.service-section-img img {
+  width: 18%;
 }
 
-.service-section-body h3{
-    font-weight: 700;
-    font-size: 18px;
+.service-section-body h3 {
+  font-weight: 700;
+  font-size: 18px;
 }
 
-.service-section-body p{
-    color: #7D7987;
+.service-section-body p {
+  color: #7d7987;
 }
 
-.service-second-button{
-    margin-top: 60px;
+.service-second-button {
+  margin-top: 60px;
 }
 
-.service-btn{
-    margin-top: 20px;
-    outline: none;
-    box-shadow: none;
-    border: 1.4px solid #458FF6;
-    background: white;
-    padding: 8px 22px;
-    color: #458FF6;
-    border-radius: 25px;
-    font-weight: 700;
-    font-size: 18px;
+.service-btn {
+  margin-top: 20px;
+  outline: none;
+  box-shadow: none;
+  border: 1.4px solid #458ff6;
+  background: white;
+  padding: 8px 22px;
+  color: #458ff6;
+  border-radius: 25px;
+  font-weight: 700;
+  font-size: 18px;
 }
 
-.service-btn:hover{
-    background-color: #458FF6;
-    color: white;
-    transition: all 2s;
+.service-btn:hover {
+  background-color: #458ff6;
+  color: white;
+  transition: all 2s;
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+  br {
+    display: none;
+  }
+
+  .text-center {
+    position: relative;
+    text-align: center !important;
+    left: -20px;
+  }
+
+  .service {
+    position: relative;
+  }
+
+  .service-second-section {
+    width: 265px;
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 992px) {
+  br {
+    display: none;
+  }
+
+  .service-second-section {
+    position: relative;
+    left: 60px;
+    width: 550px;
+    height: auto;
+  }
+
+  .service-section-body h3 {
+    font-size: 30px;
+  }
+
+  .service-section-body p {
+    font-size: 25px;
+  }
+
+  .service-main-section p {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .service-second-section {
+    position: relative;
+    width: 340px;
+    height: 260px;
+    padding: 30px;
+  }
 }

@@ -1,65 +1,142 @@
 .testimonial-row {
-    position: relative;
-    width: 1120px;
-    height: 373px;
-    left: 0;
-    margin-bottom: 250px;
-    top: 40px;
-    background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
-    border-radius: 24px;
-    display: flex;
-    flex-direction: column;
+  position: relative;
+  width: 1120px;
+  height: 373px;
+  left: 0;
+  margin-bottom: 250px;
+  top: 40px;
+  background: linear-gradient(208.18deg, #67c3f3 9.05%, #5a98f2 76.74%);
+  border-radius: 24px;
+  display: flex;
+  flex-direction: column;
 }
 
-.testimonial-header{
-    position: relative;
-    text-align: center;
-    top: 30px;
+.testimonial-header {
+  position: relative;
+  text-align: center;
+  top: 30px;
 }
 
 .testimonial-header h2 {
-    font-weight: 700;
-    font-size: 36px;
-    color: #FFFFFF;
+  font-weight: 700;
+  font-size: 36px;
+  color: #ffffff;
 }
 
 .customer {
-    display: flex;
-    flex-direction: row;
-    position: relative;
-    top: 75px;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  top: 75px;
 }
 
 .testi-client {
-    display: flex;
-    flex-direction: row;
-    position: relative;
-    left: 120px;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  left: 120px;
 }
 
-.client-info{
-    position: relative;
-    top: 40px;
-    left: 20px;
+.client-info {
+  position: relative;
+  top: 40px;
+  left: 20px;
 }
 
 .client-info h4 {
-    font-weight: 700;
-    font-size: 22px;
-    color: #FFFFFF;
+  font-weight: 700;
+  font-size: 22px;
+  color: #ffffff;
 }
 
 .client-info h5 {
-    font-weight: 400;
-    font-size: 18px;
-    color: rgba(255, 255, 255, 0.85);
+  font-weight: 400;
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.85);
 }
 
 .testi-para {
+  position: relative;
+  top: 10px;
+  left: 30px;
+  font-weight: 400;
+  font-size: 19px;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+  .testimonial-row {
+    width: 930px;
+    left: 0;
+  }
+
+  .testi-client {
+    left: 90px;
+  }
+
+  .testi-para {
+    left: -15px;
+    font-size: 20px;
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 992px) {
+  .testimonial-row {
+    position: relative;
+    width: 700px;
+    height: 373px;
+    margin-bottom: 0;
+  }
+
+  .testi-client {
+    left: 30px;
+  }
+
+  .testi-para {
+    left: -20px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  br {
+    display: none;
+  }
+
+  .customer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .testimonial-row {
+    position: relative;
+    width: 100%;
+    height: 455px;
+  }
+
+  .testimonial-header h2 {
+    font-size: 32px;
+  }
+
+  .testi-client {
+    flex-direction: column;
     position: relative;
     top: 10px;
-    left: 30px;
-    font-weight: 400;
-    font-size: 19px;
-    color: rgba(255, 255, 255, 0.9);
+    left: 15px;
+  }
+
+  .client-info {
+    top: 12px;
+    left: 16px;
+  }
+
+  .client-info h4 {
+    font-size: 16px;
+  }
+
+  .testi-para {
+    top: 30px;
+    left: 20px;
+    font-size: 14px;
+  }
 }

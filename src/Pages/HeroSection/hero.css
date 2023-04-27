@@ -1,32 +1,61 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Mulish:wght@300;400;700&family=Roboto&family=Rubik+Moonrocks&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Mulish:wght@300;400;700&family=Roboto&family=Rubik+Moonrocks&display=swap");
 
-*{
-    font-family: "Mulish", sans-serif;
+* {
+  font-family: "Mulish", sans-serif;
 }
 
 .health {
-    margin: 17% auto;
+  margin: 17% auto;
 }
 
-.health h2{
-    font-weight: 700;
+.health h2 {
+  font-weight: 700;
 }
 
-.health p{
-    font-weight: 400;
-    color: #7d7987;
+.health p {
+  font-weight: 400;
+  color: #7d7987;
 }
 
 .hero-btn {
-    outline: none;
-    box-shadow: none;
-    border: 0;
-    background: #458FF6;
-    color: #fff;
-    padding: 15px 35px;
-    border-radius: 55px;
+  outline: none;
+  box-shadow: none;
+  border: 0;
+  background: #458ff6;
+  color: #fff;
+  padding: 15px 35px;
+  border-radius: 55px;
 }
 
-.health-img img{
-    width: 100%;
+.health-img img {
+  width: 100%;
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+  .health p {
+    font-size: 18px;
+  }
+
+  .health-img img {
+    position: relative;
+    top: -20px;
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 992px) {
+  .row {
+    flex-direction: column;
+  }
+
+  .health h2 {
+    font-size: 60px;
+  }
+
+  .health p {
+    font-size: 30px;
+  }
+
+  .hero-btn {
+    font-size: 30px;
+  }
 }

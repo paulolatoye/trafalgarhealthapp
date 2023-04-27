@@ -1,14 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Mulish:wght@300;400;700&family=Roboto&family=Rubik+Moonrocks&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Mulish:wght@300;400;700&family=Roboto&family=Rubik+Moonrocks&display=swap");
 
 .navbar {
-    padding: 0!important;
+  padding: 0 !important;
 }
 
 .nav-link {
-    font-family: "Mulish", sans-serif;
-    font-weight: 300;
+  font-family: "Mulish", sans-serif;
+  font-weight: 300;
 }
 
 .home {
-    font-weight: 700 !important;
+  font-weight: 700 !important;
+}
+
+@media only screen and (min-width: 601px) and (max-width: 992px) {
 }
